@@ -384,6 +384,7 @@ h6 a {
 .header {
   position: relative;
   z-index: 9999;
+  top:19%
   /* Mobile Menu */ }
   .header::before {
     position: absolute;
@@ -450,7 +451,7 @@ h6 a {
       background-color: #f2f2f2;
       border-color: #ebebeb; }
   .header .main-header {
-    padding: 22px 0 28px 0;
+    padding: -1px 0 28px 0;
     position: relative; }
     .header .main-header .mobile-button {
       display: none;
@@ -513,6 +514,8 @@ h6 a {
     .header .main-header .main-header-logo {
       padding-left: 162px;
       padding-top: 18px; }
+      .header .main-header .main-header-logo a img{
+        width: 70%; }
     .header .main-header .main-nav {
       position: absolute;
       left: 24.9%;
@@ -698,7 +701,10 @@ h6 a {
   .header .main-header.style-2 .main-nav {
     position: inherit;
     padding-top: 24px;
-    padding-left: 4px; }
+    padding-left: 4px; 
+    margin: 0 auto;
+    width: 50%;
+    padding: 7% 0;}
   .header .main-header.style-2 .main-header-contact {
     padding-right: 0;
     float: right; }
@@ -735,6 +741,12 @@ h6 a {
     z-index: 99 !important; }
   .section-slider .rev_slider_wrapper.fullwidthbanner-container {
     height: 950px !important; }
+  .section-slider .rev_slider_wrapper.fullwidthbanner-container .fade-slider{
+    background-color: #11161e; }
+  .section-slider .rev_slider_wrapper.fullwidthbanner-container .fade-slider{
+    background-color: #11161e; }
+  .section-slider .rev_slider_wrapper.fullwidthbanner-container ul{
+    margin-left: 0px; }
   .section-slider div#rev-slider1 {
     max-height: 950px !important;
     height: 950px !important; }
